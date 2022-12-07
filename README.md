@@ -59,11 +59,11 @@ Your users should be able to:
 
 ### Useful resources
 
-- [How to Center a Div](https://blog.devgenius.io/3-ways-to-center-a-div-with-css-3df9e66dbd42) - This helped me for XYZ reason. I really liked this pattern and will use it going forward. 
+- [How to Center a Div](https://blog.devgenius.io/3-ways-to-center-a-div-with-css-3df9e66dbd42) - This is my perennial question. Google knows I will never remember how to center a div. 
 
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - Box shadow for button and div sections. 
 
-- [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
+- [linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) - The syntax of the gradient degree was odd. 
 
 ## Author
 
