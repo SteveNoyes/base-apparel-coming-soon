@@ -18,3 +18,8 @@ body {
   font-family: 'Josefin Sans', sans-serif, monospace;
 }
 
+nav img {
+  border: 1px solid red;
+  width: 100px;
+  margin: 2rem;
+}
