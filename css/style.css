@@ -61,6 +61,10 @@ nav img {
   height: auto;
 }
 
+.heroIngDesktop {
+  display: none;
+}
+
 input {
   border: 1px solid var(--desaturated-red);
   border-radius: 25px;
@@ -122,5 +126,29 @@ footer a:hover {
     border: 1px solid blue!important;
   } */
 
-  
+  nav {
+    display: none;
+  }
+
+  .heroImgMobile {
+    display: none;
+  }
+
+  .heroIngDesktop {
+    display: block;
+    height: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .baseLogo {
+    display: block;
+  }
 }
