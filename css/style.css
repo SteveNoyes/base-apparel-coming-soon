@@ -52,6 +52,10 @@ nav img {
   margin: 2rem;
 }
 
+.baseLogo {
+  display: none;
+}
+
 .heroImgMobile {
   width: 100%;
   height: auto;
@@ -111,4 +115,12 @@ footer a {
 footer a:hover {
   color: var(--desaturated-red);
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  /* * {
+    border: 1px solid blue!important;
+  } */
+
+  
 }
