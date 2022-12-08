@@ -65,6 +65,7 @@ Your users should be able to:
 
 - [linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) - The syntax of the gradient degree was odd. 
 
+- [Transition Transform on Hover](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/) - button hover state transition transform, 
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)

@@ -84,6 +84,12 @@ button {
   position: relative;
   top: 3px;
   right: 19px;
+  transition: all .2s ease-in-out;
+}
+  
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1); 
 }
 
 footer {
