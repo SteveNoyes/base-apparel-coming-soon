@@ -121,10 +121,7 @@ footer a:hover {
   cursor: pointer;
 }
 
-@media (min-width: 600px) {
-  /* * {
-    border: 1px solid blue!important;
-  } */
+@media (min-width: 1440px) {
 
   nav {
     display: none;
@@ -139,6 +136,11 @@ footer a:hover {
     height: 100%;
   }
 
+  p {
+    width: 350px;
+    margin: 0;
+  }
+
   main {
     display: flex;
     flex-direction: row-reverse;
@@ -146,6 +148,11 @@ footer a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: left;
+  }
+
+  section {
+    border: 1px solid red;
   }
 
   .baseLogo {
