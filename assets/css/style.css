@@ -1,0 +1,144 @@
+/* 'Josefin Sans Regular'
+  'Josefin Sans SemiBold'
+ 'Josefin Sans Light' */
+
+/* Weights: 300, 400, 600  */
+
+:root {
+  /* Primary */
+  --desaturated-red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  /* Neutral */
+  --dark-grayish-red: hsl(0, 6%, 24%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%); 
+  /* Gradients */
+  /* background: linear-gradient(135deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), */
+  /* background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%) 70.71%), */
+  /* background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%) 70.71%), */
+  /* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%); */
+  /* - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%); */
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Josefin Sans Regular';
+  font-weight: 400;
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  height: 100vh;
+  color: var(--black);
+}
+
+.wrapper {
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav img {
+  padding: 30px;
+  width: 140px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.were-coming {
+  text-align: center;
+  padding: 30px;
+}
+
+.were-coming h1 {
+  color: var(--desaturated-red);
+  font-size: 45px;
+  font-weight: 300;
+  font-family: 'Josefin Sans Light';
+  letter-spacing: 5px;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+.were-coming span {
+  font-family: 'Josefin Sans SemiBold';
+  color: var(--black);
+}
+
+.graph {
+  padding: 0 40px 20px;
+  line-height: 25px;
+  color: var(--desaturated-red);
+}
+
+.email-input {
+  height: 45px;
+  width: 300px;
+  border: 1px solid var(--desaturated-red);
+  border-radius: 30px;
+}
+
+button {
+  border: none;
+  width: 67px; 
+  height: 50px;
+  border-radius: 30px;
+  margin-left: -40px;
+  vertical-align: bottom;
+  box-shadow: 10px 10px 19px var(--desaturated-red);
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%) 70.71%);
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+
+input {
+  padding-right: 30px;
+}
+
+::placeholder {
+  color: var(--desaturated-red);
+  padding-left: 15px;
+}
+
+.desktop-logo {
+  display: none;
+}
+
+.warning-graph {
+  color: var(--soft-red);
+  font-size: 12px;
+  padding: 10px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 399px) {
+  .email-input {
+    max-width: 190px!important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-direction:row-reverse;
+  }
+  .moblie-logo {
+    display: none;
+  }
+  .desktop-logo {
+    display: inline;
+  }
+  .were-coming {
+    text-align: left;
+    padding: 30px 0 30px 30px;
+  }
+  .graph {
+    
+  }
+}
